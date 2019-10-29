@@ -24,13 +24,38 @@ Draw a diagram showing the dataflow through the application starting with a form
 ### Questions
 
 1. What is responsible for defining the routes of the `games` resource?
+
+create_router.js
+
 2. What do you notice about the folder structure?  Whats the client responsible for? Whats the server responsible for?
+
+client: front-end
+server: back-end
+
 3. What are the the responsibilities of server.js?
+
+Seed the db; define the routes; serve json
+
 4. What are the responsibilities of the `gamesRouter`?
+
+create re-usable code concerning restful routes
+
 5. What process does the the client (front-end) use to communicate with the server?
+
+restful routes
+
 6. What optional second argument does the `fetch` method take? And what is it used for in this application? Hint: See [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) on the MDN docs
+
+init
+
 7. Which of the games API routes does the front-end application consume (i.e. make requests to)?
+
+
+post & delete
+
 8. What are we using the [MongoDB Driver](http://mongodb.github.io/node-mongodb-native/) for?
+
+
 
 ## Extension
 
